@@ -1,6 +1,6 @@
 # Static Website Hosting using Route 53 and S3
 
-![Alt text](Full Architecture.png)
+![Alt text](Full-Architecture.png)
 ----
 
 ## Overview
