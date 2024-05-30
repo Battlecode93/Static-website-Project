@@ -1,5 +1,8 @@
 # Static Website Hosting using Route 53 and S3
 
+![Alt text](Full Architecture.png)
+----
+
 ## Overview
 
 This project demonstrates the process of hosting a static website using Amazon S3 and Route 53. By following the steps outlined below, you can set up a simple static website and configure Route 53 to route traffic from a registered domain to the S3 bucket hosting the website.
