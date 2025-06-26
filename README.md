@@ -9,11 +9,11 @@ This project demonstrates the process of hosting a static website using Amazon S
 
 ## Project Details
 
-- **Domain Name**: `coreyproject.click`
-- **S3 Bucket Name**: `coreyproject.click`
+- **Domain Name**: `coreyprojects.com`
+- **S3 Bucket Name**: `coreyprojects.com`
 - **Bucket Policy**: Enabled to allow public access to objects in the bucket
 - **Static Website Hosting**: Enabled in the S3 bucket properties
-- **Alias Record**: Created in Route 53 hosted zones to route traffic from the S3 bucket URL to the domain name `coreyproject.click`
+- **Alias Record**: Created in Route 53 hosted zones to route traffic from the S3 bucket URL to the domain name `coreyprojects.com`
 
 ## Architecture
 
@@ -24,15 +24,15 @@ The architecture of the project involves the following components:
 
 ## Setup Steps
 
-1. **Register Domain**: Register a domain name through Route 53 or any other domain registrar of your choice. In this project, the domain name used is `coreyproject.click`.
+1. **Register Domain**: Register a domain name through Route 53 or any other domain registrar of your choice. In this project, the domain name used is `coreyprojects.com`.
 
-2. **Create S3 Bucket**: Create an S3 bucket with the same name as your domain (`coreyproject.click`). Upload your website files (HTML, CSS, JavaScript, etc.) to this bucket.
+2. **Create S3 Bucket**: Create an S3 bucket with the same name as your domain (`coreyprojects.com`). Upload your website files (HTML, CSS, JavaScript, etc.) to this bucket.
 
 3. **Enable Static Website Hosting**: In the S3 bucket properties, enable static website hosting and specify the index document (e.g., `index.html`).
 
 4. **Configure Bucket Policy**: Create a bucket policy to allow public access to the objects in the bucket. This ensures that users can view the website content.
 
-5. **Create Alias Record**: In Route 53, create an alias record in your hosted zone to route traffic from the S3 bucket URL (e.g., `coreyproject.click.s3-website-us-east-1.amazonaws.com`) to your registered domain name (`coreyproject.click`).
+5. **Create Alias Record**: In Route 53, create an alias record in your hosted zone to route traffic from the S3 bucket URL (e.g., `coreyprojects.com.s3-website-us-east-1.amazonaws.com`) to your registered domain name (`coreyprojects.com`).
 
 ## Deployment Process
 
@@ -40,7 +40,7 @@ The architecture of the project involves the following components:
 2. Enable static website hosting in the S3 bucket properties.
 3. Configure a bucket policy to allow public access to objects.
 4. Create an alias record in Route 53 to route traffic to the S3 bucket URL.
-5. Verify the setup by accessing the website using the registered domain name (`coreyproject.click`).
+5. Verify the setup by accessing the website using the registered domain name (`coreyprojects.com`).
 
 ## Summary
 
